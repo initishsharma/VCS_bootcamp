@@ -1,0 +1,63 @@
+HTML ASSESSMENT
+NITISH SHARMA (INT056)
+
+1. HTTP REQUEST AND RESPOSE HEADER
+HTTP requests are messages sent by the client to initiate an action on the server. 
+Their start-line contain three elements:
+A)	An HTTP method, a verb or a noun, that describes the action to be performed.
+ 	For example: 
+GET indicates that a resource should be fetched or POST means that data is pushed 
+to the server.
+
+ A response header is an HTTP header that can be used in an HTTP response and that doesn't relate to the content of the message. 
+For Example:
+Response headers, like Age, Location or Server are used to give a more detailed context of the response.
+
+2.  HTTP REQUEST METHOD
+•	GET
+•	PUT
+•	POST 
+•	PATCH
+•	DELETE
+•	OPTIONS
+
+3.  HTTP STATUS CODE
+A status code, indicating success or failure of the request.
+ 
+o	100=CONTINUE
+o	200-OK STATUS (SUCCESS)
+o	201=created
+o	204=no content
+o	205= reset content
+o	206=partial content
+o	300=multiple choices
+o	301=moved permanently
+o	304=not modified
+o	307=Temporary Redirect
+o	400=bad request
+o	401= Unauthorised
+o	402= payment required
+o	403=forbidden
+o	404=not found
+o	408=request timeout
+o	410=Gone
+o	415=Unsupported Media Type
+o	500=Internal Server Error
+o	503= service unavailable
+
+
+4. RESOURCES ON THE WEB
+The target of an HTTP request is called a “resource”.
+Its nature is not defined, it can be a document, a photo, or anything else.
+Each resource is identified by URL used throughout HTTP for identifying resource.
+
+URL consist of following segments:
+1.	Protocol (HTTP/HTTPS)
+2.	Authority (DOMAIN NAME: WWW.GOOGLE.CO.IN)
+3.	Port (:80)
+4.	Path (/path/to/myfile.html)
+5.	Query (?key1=value&key2=value2)
+6.	Fragment (#MayBeInsideADocument)
+
+
+
